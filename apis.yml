@@ -1,8 +1,25 @@
 aid: frame-security
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/frame-security.png
 name: Frame Security
-description: 'Frame Security is a company surfaced as a portfolio company of index-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Frame Security is an AI-powered human risk management and security awareness
+  platform that defends organizations against human-targeted attacks such as phishing,
+  deepfakes, and social engineering. Frame generates personalized security awareness
+  training in 70+ languages, hyper-realistic email, voice, and video phishing and deepfake
+  simulations built from an organization''s own context, employee risk scoring with
+  targeted interventions, automated phishing triage of reported suspicious emails, and
+  cross-platform reporting and integrations. The company is backed by Index Ventures
+  and raised a $50M round in 2026.'
 url: https://raw.githubusercontent.com/api-evangelist/frame-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Security
+- Security Awareness
+- Human Risk Management
+- Phishing Simulation
+- Deepfake Detection
+- Cybersecurity Training
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://framesecurity.com
+  url: https://framesecurity.com
+- type: Pricing
+  url: https://framesecurity.com/pricing
+- type: Login
+  url: https://admin.framesecurity.com/auth/sign-in
+- type: Support
+  url: https://framesecurity.com/contact-us
+- type: TermsOfService
+  url: https://framesecurity.com/legal#terms-of-use
+- type: PrivacyPolicy
+  url: https://framesecurity.com/legal#privacy-policy
+- type: TrustCenter
+  url: security/frame-security-trust-center.yml
+- type: Compliance
+  url: https://trust.framesecurity.com/
+- type: DomainSecurity
+  url: security/frame-security-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
